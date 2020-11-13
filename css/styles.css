@@ -1,8 +1,11 @@
+
+
 /**********TAG SELECTORS**********/
+
 body {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
-  /* background-color: #EDECFE; */
+  /* background-color: #66BFBF; */
   margin-top: 0px;
   margin-right: 0px;
   margin-left: 0px;
@@ -10,50 +13,53 @@ body {
   font-family: Verdana, sans-serif;
   text-align: center;
   text-decoration: wavy;
+  width: 100%;
 }
 
 head{
     background-color: #Eaf6f6;
+    
 }
 
 div{
     border-color: black;
-    padding: 20px;
+    padding: auto;
+    position: relative;
+
     }
 
 h1 {
   position: auto;
-  /* margin-top: 20px;*/
+  margin-top: 20px;
   font-size: 90px; 
 /*   color: rgb(36, 3, 3);*/  
-  color: #66BFBF;
+  color: black;
   font-family: 'Sacramento', cursive;
-  margin: 30px auto 0 auto;
-}
+/*   margin: 30px auto 0 auto;
+ */}
 
 
 h2 {
   /* color: rgb(36, 3, 3); */
-  color: #66BFBF;
+  color: black;
 }
 
 h3 {
   /* color: rgb(36, 3, 3); */
-  color: #66BFBF;
+  color: black;
   font-size: 2rem;
 }
 
 p {
     font-size: 20px;
-    color: saddlebrown;
-    /* color: #66BFBF; */
+    color: rgba(66, 5, 5, 0.61);
     position: relative;
     font-family: 'Merriweather', serif;
 
 }
 .pmaimic{
   font-size: 15px;
-  color: saddlebrown;
+  color: rgba(66, 5, 5, 0.884);
   opacity: 50%;
 }
 br {
@@ -88,23 +94,27 @@ br {
 }
 
 .primulNor{
-  position: relative;
-  right: 300px;
-  left: 50px;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  bottom: 50px;
+  width: 20%;
 }
 
 .secundNor{
-  position: relative;
-  left: 100px;
-  bottom: 250px;
+  position: absolute;
+  left: 55%;
+  top: 25%; 
+  width: 20%;
+  bottom: 50px;
 }
 
 .muntele{
-  position: relative;
-    left: 200px;
-    bottom: 80px;
-    margin: 50 auto 0 auto;
-}
+  position: absolute;
+  width: 45%; 
+  bottom: -50px;
+  right: 25%;
+  }
  
 .bacon {
   background-color: green;
